@@ -1,5 +1,5 @@
 import geometry.*;
-public class zad3 {
+public class Main {
     public static void main(String[] args) {
         Point point = new Point(3.0, 5.0);
         ColoredCircle coloredCircle = new ColoredCircle(point, 6, "Yellow");

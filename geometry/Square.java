@@ -3,7 +3,7 @@ package geometry;
 public class Square extends Rectangle {
 
     public Square(double length, double width) {
-        super(width);
+        super(width, width);
     }
 
     @Override

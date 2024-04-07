@@ -2,12 +2,12 @@ package geometry;
 
 public class Square extends Rectangle {
     public Square(double width){
-        super(width);
+        super(width, width);
     }
 
     @Override
     public String toString() {
-        return "Square{" +
+        return "Rectangle{" +
                 "width=" + width +
                 '}';
     }
